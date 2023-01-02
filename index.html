@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="test-budget.css">
+  <link rel="stylesheet" href="main.css">
+  <script type="module" src="main.js" defer></script>
   <title>Test Budget</title>
 </head>
 <body>
 
-  <div class="page-1">
+  <div class="summary-page">
     <header>
-      <h1 class="hdr">Spend Dec 2022</h1>
-      <h2 class="sub-hdr">Fri 12/23 - Sat 12/31</h2>
+      <h1 class="hdr">Spend </h1>
+      <h2 class="sub-hdr"></h2>
     </header>
 
     <div class="summary">
@@ -20,8 +21,8 @@
       <div class="summary-overall">
         <table>
           <tr class="values">
-            <td>$1,000</td>
-            <td>$500</td>
+            <td id="total-spend"></td>
+            <td id="emma-portion"></td>
           </tr>
           <tr class="titles">
             <th>Total Spend</th>
@@ -32,30 +33,6 @@
 
       <div class="top-categories">
         <h2>Top Categories</h2>
-        <div class="top-cat-item">
-          <img src="./img/groceries.svg" />
-          <div class="top-cat-info">
-            <h3>$400</h3>
-            <h4>Groceries</h4>
-          </div>
-        </div>
-
-        <div class="top-cat-item">
-          <img src="./img/restaurants.svg" />
-          <div class="top-cat-info">
-            <h3>$350</h3>
-            <h4>Restaurants</h4>
-          </div>
-        </div>
-
-        <div class="top-cat-item">
-          <img src="./img/home.svg" />
-          <div class="top-cat-info">
-            <h3>$250</h3>
-            <h4>Home</h4>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
@@ -63,7 +40,7 @@
 
 
 
-  <div class="page-2">
+  <div class="transactions" id="page-2">
     <h1>Transactions</h1>
 
     <table>
@@ -76,84 +53,12 @@
         </tr>
       </thead>
 
-      <tbody>
-        <tr>
-          <td><img src="./img/groceries.svg" /></td>
-          <td>Dec 28</td>
-          <td>Harris Teeter</td>
-          <td>$300</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/restaurants.svg" /></td>
-          <td>Dec 28</td>
-          <td>Jersey Mike's</td>
-          <td>$20</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$100</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-        <tr>
-          <td><img src="./img/home.svg" /></td>
-          <td>Dec 28</td>
-          <td>Amazon</td>
-          <td>$120</td>
-        </tr>
-
-
-      </tbody>
+      <tbody></tbody>
     </table>
 
   </div>
 
-  <div class="page-2">
+  <div class="transactions" id="page-3">
     <h1>Transactions (cont'd)</h1>
 
     <table>
@@ -167,7 +72,7 @@
       </thead>
 
       <tbody>
-        <tr>
+        <!-- <tr>
           <td><img src="./img/groceries.svg" /></td>
           <td>Dec 28</td>
           <td>Harris Teeter</td>
@@ -235,7 +140,7 @@
           <td>Dec 28</td>
           <td>Amazon</td>
           <td>$120</td>
-        </tr>
+        </tr> -->
 
 
       </tbody>

@@ -18,30 +18,30 @@ html, body {
   width: var(--page-width);
 }
 
-.page-1, .page-2 {
+.summary-page, .transactions {
   height: var(--page-height);
   box-sizing: border-box;
 }
 
-.page-1 header {
+.summary-page header {
   padding: 10px 20px;
 
   background-color: rgb(30, 144, 255);
   color: white;
 }
 
-.page-1 header h1 {
+.summary-page header h1 {
   margin: 0;
   font-size: 4rem;
 }
 
-.page-1 header h2 {
+.summary-page header h2 {
   margin: 0 0 1rem 0;
   font-weight: normal;
   font-size: 2.5rem;
 }
 
-.page-1 .summary h1.hdr {
+.summary-page .summary h1.hdr {
   margin: 0;
   padding: 1rem;
   font-size: 3rem;
@@ -49,33 +49,33 @@ html, body {
   background-color: rgb(143, 200, 255);
 }
 
-.page-1 .summary .summary-overall {
+.summary-page .summary .summary-overall {
   padding: 0.8rem 0;
 }
 
-.page-1 .summary .summary-overall table {
+.summary-page .summary .summary-overall table {
   text-align: center;
   width: 100%;
 }
 
-.page-1 .summary .summary-overall table tr.values {
+.summary-page .summary .summary-overall table tr.values {
   font-size: 6.5rem;
   font-weight: 300;
   color: var(--money-green);
 }
 
-.page-1 .summary .summary-overall table tr.values td {
+.summary-page .summary .summary-overall table tr.values td {
   padding: 0 2.5rem;
 }
 
-.page-1 .summary .summary-overall table tr.titles th {
+.summary-page .summary .summary-overall table tr.titles th {
   font-weight: 400;
   font-size: 2.8rem;
   color: var(--text-color-default);
   width: 50%;
 }
 
-.page-1 .summary .top-categories {
+.summary-page .summary .top-categories {
   margin-top: 1.2rem;
   box-sizing: border-box;
   padding: 1rem;
@@ -85,39 +85,39 @@ html, body {
   align-items: center;
 }
 
-.page-1 .summary .top-categories h2 {
+.summary-page .summary .top-categories h2 {
   margin: 0 0 1rem 0;
   width: 100%;
   font-size: 2.5rem;
   color: var(--text-color-default);
 }
 
-.page-1 .summary .top-categories .top-cat-item {
+.summary-page .summary .top-categories .top-cat-item {
   width: 90%;
   display: flex;
   align-items: center;
   padding: 0.5rem;
 }
 
-.page-1 .summary .top-categories .top-cat-item img {
+.summary-page .summary .top-categories .top-cat-item img {
   width: 8rem;
   height: 8rem;
   filter: invert(0.15);
 }
 
-.page-1 .summary .top-categories .top-cat-item .top-cat-info {
+.summary-page .summary .top-categories .top-cat-item .top-cat-info {
   color: var(--text-color-default);
   margin-left: 1.5rem;
 }
 
-.page-1 .summary .top-categories .top-cat-item .top-cat-info h3 {
+.summary-page .summary .top-categories .top-cat-item .top-cat-info h3 {
   margin: 0;
   font-size: 3.5rem;
   font-weight: normal;
   color: var(--money-green);
 }
 
-.page-1 .summary .top-categories .top-cat-item .top-cat-info h4 {
+.summary-page .summary .top-categories .top-cat-item .top-cat-info h4 {
   margin: 0;
   font-size: 2rem;
   font-weight: normal;
@@ -127,63 +127,63 @@ html, body {
 
 
 
-.page-2 {
+.transactions {
   padding: 1rem;
 }
 
-.page-2 h1 {
+.transactions h1 {
   margin: 0 0 0.5rem 0;
   font-size: 4rem;
 }
 
-.page-2 table {
+.transactions table {
   width: 100%;
   border-collapse: collapse;
   font-size: 2rem;
 }
 
-.page-2 table th {
+.transactions table th {
   padding: 0.3rem 0;
 }
 
 /* Icon */
-.page-2 table th:nth-child(1) {
+.transactions table th:nth-child(1) {
   width: 15%;
 }
 
 /* Date */
-.page-2 table th:nth-child(2) {
+.transactions table th:nth-child(2) {
   width: 20%;
   text-align: left;
 }
 
 /* Vendor */
-.page-2 table th:nth-child(3) {
+.transactions table th:nth-child(3) {
   text-align: left;
 }
 
 /* Amount */
-.page-2 table th:nth-child(4) {
+.transactions table th:nth-child(4) {
   text-align: right;
 }
 
-.page-2 table td {
+.transactions table td {
   padding: 0.4rem 0;
 }
 
-.page-2 table tbody img {
+.transactions table tbody img {
   width: 4rem;
   height: 4rem;
 }
 
-.page-2 table tbody tr {
+.transactions table tbody tr {
   border-top: 1px solid var(--text-color-default);
 }
 
-.page-2 table tbody td:nth-child(1) {
+.transactions table tbody td:nth-child(1) {
   text-align: center;
 }
 
-.page-2 table tbody td:nth-child(4) {
+.transactions table tbody td:nth-child(4) {
   text-align: right;
 }
