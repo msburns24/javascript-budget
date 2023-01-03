@@ -1,0 +1,53 @@
+Date : 2023-01-02 17:22:39
+Directory : c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget
+Total : 19 files,  445 codes, 249 comments, 141 blanks, all 835 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |          6 |        193 |        171 |         85 |        449 |
+| CSS        |          1 |        143 |          9 |         37 |        189 |
+| HTML       |          1 |         66 |         69 |         17 |        152 |
+| CSV        |          1 |         18 |          0 |          1 |         19 |
+| JSON       |          2 |         16 |          0 |          0 |         16 |
+| XML        |          7 |          7 |          0 |          0 |          7 |
+| Markdown   |          1 |          2 |          0 |          1 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                              |         19 |        445 |        249 |        141 |        835 |
+| csv                                                                                                                                                            |          1 |         18 |          0 |          1 |         19 |
+| img                                                                                                                                                            |          8 |         17 |          0 |          0 |         17 |
+| json                                                                                                                                                           |          1 |          6 |          0 |          0 |          6 |
+| modules                                                                                                                                                        |          4 |        103 |        164 |         53 |        320 |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                                       | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\README.md                         | Markdown   |          2 |          0 |          1 |          3 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\classes-test.js                   | JavaScript |         15 |          0 |          4 |         19 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\csv\2023.01.02_transactions.csv   | CSV        |         18 |          0 |          1 |         19 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\auto-gas.svg                  | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\cat_to_img.json               | JSON       |         10 |          0 |          0 |         10 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\fun.svg                       | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\groceries.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\home.svg                      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\restaurants.svg               | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\travel.svg                    | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\img\utilities.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\index.html                        | HTML       |         66 |         69 |         17 |        152 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\json\2023.01.02_transactions.json | JSON       |          6 |          0 |          0 |          6 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\main.css                          | CSS        |        143 |          9 |         37 |        189 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\main.js                           | JavaScript |         75 |          7 |         28 |        110 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\modules\doc-elements.js           | JavaScript |          0 |          0 |          1 |          1 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\modules\helper.js                 | JavaScript |         27 |          0 |          3 |         30 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\modules\test.js                   | JavaScript |          0 |        161 |         37 |        198 |
+| c:\Users\TE313862\OneDrive - TE Connectivity\Documents\600 - Training & Extracurricular\606 - Python\repos\javascript-budget\modules\transactions.js           | JavaScript |         76 |          3 |         12 |         91 |
+| Total                                                                                                                                                          |            |        445 |        249 |        141 |        835 |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
