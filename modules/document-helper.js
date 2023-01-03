@@ -51,7 +51,7 @@ export class DocumentHelper {
         newCatInfo.appendChild(newCatAmt);
 
         let newCatCat = this.document.createElement("h4");
-        newCatCat.textContent = "Home";
+        newCatCat.textContent = cat;
         newCatInfo.appendChild(newCatCat);
       newCatItem.appendChild(newCatInfo);
 
@@ -74,8 +74,6 @@ export class DocumentHelper {
         this.addTitle();
         this.createTable();
         this.body.appendChild(this.currPage);
-        console.log(`Page ${tNum%10 + 2} created.`);
-        console.log(this.currPage.id);
       }
 
       this.appendRow(tNum);
@@ -91,6 +89,8 @@ export class DocumentHelper {
 
   addTitle () {
     let newH1 = this.document.createElement('h1');
+    let newTitle = (this.currPage.id == "page-2" ? "Transactions" : "Transactions (cont'd)");
+    newH1.textContent = newTitle;
     this.currPage.appendChild(newH1);
   }
 
