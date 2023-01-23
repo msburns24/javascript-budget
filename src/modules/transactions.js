@@ -25,12 +25,12 @@ export class Transactions {
       cat_i = this.cats[i];
       amt_i = this.amts[i];
       if (this.catTotalsHash[cat_i]) {
-        this.catTotalsHash[cat_i] += amt_i;
+        this.catTotalsHash[cat_i] += parseFloat(amt_i);
       } else {
-        this.catTotalsHash[cat_i] = amt_i;
+        this.catTotalsHash[cat_i] = parseFloat(amt_i);
       }
   
-      this.totalSpend += amt_i;
+      this.totalSpend += parseFloat(amt_i);
     }
 
     this.emmaPortion = this.totalSpend / 2;
@@ -42,6 +42,7 @@ export class Transactions {
     for (let i=0; i<(Object.keys(this.catTotalsHash).length); i++) {
       cat_i = Object.keys(this.catTotalsHash)[i];
       total_i = parseFloat(this.catTotalsHash[cat_i]).toFixed(2);
+      console.log(typeof this.catTotalsHash[cat_i]);
       this.catTotalsHash[cat_i] = total_i;
     }
 
@@ -71,8 +72,8 @@ export class Transactions {
     let maxVal = 0;
     let maxCat = "";
     for (let i=0; i<cats.length; i++) {
-      if (vals[i] > maxVal) {
-        maxVal = vals[i];
+      if (parseFloat(vals[i]) > maxVal) {
+        maxVal = parseFloat(vals[i]);
         maxCat = cats[i];
       }
     }
